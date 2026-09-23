@@ -1,0 +1,20 @@
+{
+  "name": "workflow-catalog",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Independent declarative catalog and business-only verification",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "raindrop:discover": "tsx scripts/verify-raindrop-discovery.ts",
+    "raindrop:manual": "tsx scripts/verify-raindrop-manual.ts"
+  },
+  "devDependencies": {
+    "@types/node": "22.18.6",
+    "tsx": "4.20.0",
+    "vitest": "4.1.11"
+  }
+}
