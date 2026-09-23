@@ -10,7 +10,8 @@
   "scripts": {
     "test": "vitest run",
     "raindrop:discover": "tsx scripts/verify-raindrop-discovery.ts",
-    "raindrop:manual": "tsx scripts/verify-raindrop-manual.ts"
+    "raindrop:manual": "tsx scripts/verify-raindrop-manual.ts",
+    "raindrop:scheduled": "tsx scripts/verify-raindrop-scheduled.ts"
   },
   "devDependencies": {
     "@types/node": "22.18.6",
